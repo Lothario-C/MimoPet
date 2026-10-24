@@ -1,0 +1,34 @@
+# Build output
+dist/
+*.exe
+*.pdb
+
+# Local runtime config written by the app
+mimoskin.json
+mimoskin-ui.json
+mimoskin-chat.json
+mimoskin-balance.json
+mimoskin-gateways.json
+mimoskin-usage.json
+*.tmp
+
+# Patcher working dir (extracted at runtime)
+think-patch/
+
+# User notes
+notes/
+
+# asar backups
+*.asar
+*.mimo-skin-backup
+*.mimo-skin-bak
+*.mimo-skin-new
+*.preflight
+
+# Editor / OS noise
+.vs/
+.vscode/
+*.user
+Thumbs.db
+desktop.ini
+.DS_Store
